@@ -1,0 +1,29 @@
+{
+  "name": "next-env",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "homepage": "https://github.com/formatlos/next-env",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/formatlos/next-env"
+  },
+  "keywords": [
+    "next.js",
+    "next",
+    "plugins",
+    "environment",
+    "env",
+    "dotenv",
+    "runtime",
+    "configuration"
+  ],
+  "peerDependencies": {
+    "next": ">= 5.1.0"
+  },
+  "devDependencies": {
+    "next": "^6.1.1",
+    "webpack": "3.10.0"
+  },
+  "dependencies": {}
+}
