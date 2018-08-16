@@ -4,6 +4,18 @@ Automatic static (build-time) or runtime environment variables injection for [Ne
 
 The plugin doesn't handle loading of dotenv files. Use [dotenv](https://github.com/motdotla/dotenv) or [dotenv-load](https://github.com/formatlos/dotenv-load).
 
+## Installation
+
+```
+npm install --save next-env dotenv-load
+```
+
+or
+
+```
+yarn add next-env dotenv-load
+```
+
 ## How it works
 
 Your project can consume variables declared in your environment as if they were declared locally in your JS files. 
