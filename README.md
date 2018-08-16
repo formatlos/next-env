@@ -6,13 +6,13 @@ The plugin doesn't handle loading of dotenv files. Use [dotenv](https://github.c
 
 ## Installation
 
-```
+```sh
 npm install --save next-env dotenv-load
 ```
 
 or
 
-```
+```sh
 yarn add next-env dotenv-load
 ```
 
@@ -55,7 +55,7 @@ NEXT_STATIC_TEST_1=STATIC_TEXT
 
 In your `pages/index.js`:
 
-```
+```js
 export default () => (
   <ul>
     <li>{process.env.NEXT_SERVER_TEST_1}</li>
