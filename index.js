@@ -26,7 +26,7 @@ function pick(keys, obj) {
 }
 
 module.exports = options => {
-  opts = {
+  const opts = {
     ...defaultOptions,
     ...options,
   };
