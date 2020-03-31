@@ -22,7 +22,7 @@
     "next": ">= 5.1.0"
   },
   "devDependencies": {
-    "next": "^6.1.1",
+    "next": "^9.3.2",
     "webpack": "3.10.0"
   },
   "dependencies": {}
